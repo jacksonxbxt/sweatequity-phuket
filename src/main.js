@@ -2,6 +2,16 @@ import './style.css'
 
 document.querySelector('#app').innerHTML = `
   <main class="page">
+    <header class="site-header">
+      <a class="brand" href="/" aria-label="Sweat Equity Phuket home">
+        <img class="brand-mark" src="/images/logo.jpg" alt="Sweat Equity logo" />
+        <div class="brand-copy">
+          <span class="brand-title">Sweat Equity Phuket</span>
+          <span class="brand-subtitle">Founder meetups in motion</span>
+        </div>
+      </a>
+    </header>
+
     <section class="hero">
       <div class="hero-copy">
         <p class="eyebrow">Sweat Equity Phuket</p>
